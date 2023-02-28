@@ -54,10 +54,6 @@ class Kernel extends HttpKernel
      * @var array<string, class-string|string>
      */
     protected $routeMiddleware = [
-<<<<<<< HEAD
-        'cors' => \Barryvdh\Cors\Middleware\HandleCors::class,
-=======
->>>>>>> f36b77c (Upload crud)
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,

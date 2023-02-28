@@ -169,11 +169,7 @@
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<<<<<<< HEAD
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Yuta Nakamoto</span>
-=======
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">S1 Sistem Informasi</span>
->>>>>>> f36b77c (Upload crud)
                 <img class="img-profile rounded-circle"
                     src="{{ asset('template/img/undraw_profile.svg') }}">
             </a>

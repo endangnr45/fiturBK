@@ -20,26 +20,17 @@
         </div>
         <div class="mb-3">
             <label for="kategori" class="form-label">Kategori BK</label>
-<<<<<<< HEAD
             <br>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="kategori" id="kategori" value="Wajib" {{ ($bk-> kategori == 'Wajib') ? 'checked' : ''}}>
-                <label class="form-check-label" for="sir">Wajib</label>
+                <label class="form-check-label" for="kategori">Wajib</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="kategori" id="kategori" value="Tidak Wajib" {{ ($bk-> kategori == 'Tidak Wajib') ? 'checked' : ''}}>
-                <label class="form-check-label" for="lady">Tidak Wajib</label>
+                <label class="form-check-label" for="kategori">Tidak Wajib</label>
             </div>
             {{-- <div class="checkbox">
               </div> --}}
-=======
-            <div class="checkbox">
-                <label><input type="checkbox" id="kategori" name="kategori" value={{ old('kategori',$bk-> kategori)}}>Wajib</label>
-              </div>
-            <div class="checkbox">
-                <label><input type="checkbox" id="kategori" name="kategori" value={{ old('kategori',$bk-> kategori)}}>Tidak Wajib</label>
-              </div>
->>>>>>> f36b77c (Upload crud)
         </div>
         {{-- <div class="mb-3">
             <label for="kategori" class="form-label">Kategori BK</label>

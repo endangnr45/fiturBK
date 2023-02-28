@@ -20,7 +20,6 @@
         </div>
         <div class="mb-3">
             <label for="kategori" class="form-label">Kategori BK</label>
-<<<<<<< HEAD
             <br>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="kategori" id="kategori" value="Wajib">
@@ -31,18 +30,11 @@
                 <label class="form-check-label" for="lady">Tidak Wajib</label>
             </div>
             {{-- <div class="checkbox">
-=======
-            <div class="checkbox">
->>>>>>> f36b77c (Upload crud)
                 <label><input type="checkbox" id="kategori" name="kategori" value="Wajib">Wajib</label>
               </div>
             <div class="checkbox">
                 <label><input type="checkbox" id="kategori" name="kategori" value="Tidak Wajib">Tidak Wajib</label>
-<<<<<<< HEAD
               </div> --}}
-=======
-              </div>
->>>>>>> f36b77c (Upload crud)
             {{-- <label class="checkbox"><input type="checkbox" id="kategori" name="kategori" value="Wajib">Wajib</label>
             <label class="checkbox"><input type="checkbox" id="kategori" name="kategori" value="Wajib"value="Tidak Wajib">Tidak Wajib</label> --}}
             {{-- <input type="text" class="form-control @error('kategori') is-invalid @enderror" id="kategori" 
